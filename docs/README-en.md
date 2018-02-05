@@ -13,8 +13,6 @@
   <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="Standard - JavaScript Style Guide"></a>
 </p>
 
-<h4 align="center">One JavaScript Style to Rule Them All</h4>
-
 <p align="center">
   <a href="/docs/README-en.md">English</a> •
   <a href="/docs/README-esla.md">Español (Latinoamérica)</a> •
@@ -25,9 +23,12 @@
   <a href="/docs/README-zhtw.md">繁體中文 (Taiwanese Mandarin)</a>
 </p>
 
-<br>
+<p align="center">
+  <strong>Sponsored by</strong>
+  <a href="https://stdlib.com" target='_blank'><img src='https://feross.org/images/supporters/stdlib.png' width=150></a>
+</p>
 
-## JavaScript style guide, with linter & automatic code fixer
+## JavaScript style guide, linter, and formatter
 
 This module saves you (and others!) time in three ways:
 
@@ -47,7 +48,7 @@ Install with:
 npm install standard --save-dev
 ```
 
-## The Rules
+## StandardJS — The Rules
 
 - **2 spaces** – for indentation
 - **Single quotes for strings** – except to avoid escaping
@@ -68,8 +69,8 @@ npm install standard --save-dev
 [1]: http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding
 [2]: http://inimino.org/~inimino/blog/javascript_semicolons
 [3]: https://www.youtube.com/watch?v=gsfbh17Ax9I
-[4]: RULES.md#semicolons
-[5]: RULES.md#javascript-standard-style
+[4]: /docs/RULES-en.md#semicolons
+[5]: /docs/RULES-en.md#javascript-standard-style
 
 To get a better idea, take a look at
 [a sample file](https://github.com/expressjs/body-parser/blob/master/index.js) written
